@@ -26,10 +26,6 @@ public class App {
     temp = (int) (b * 1000);
     b = (double) temp / 1000;
 
-    if (a == b) {
-      return true;
-    } else {
-      return false;
-    }
+    return a == b ? true : false;
   }
 }
